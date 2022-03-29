@@ -4,6 +4,7 @@ A running log of things we have managed to fix, and resources we have found alon
 ---
 
 ### 20220329
+Attendants: 7
  - turn your `for` loops into `lapply()` instead
  - Install [Rtools for Windows](https://cran.r-project.org/bin/windows/Rtools/rtools40.html) to install `{Rcpp}` and other packages properly on Windows.
  - Wrote a tiny Python script that parses an Ensembl gff3 to pull out functional annotation for mRNAs
