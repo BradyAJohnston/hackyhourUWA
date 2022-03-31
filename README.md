@@ -3,6 +3,9 @@
 A running log of things we have managed to fix, and resources we have found along the way!
 ---
 
+ - fixing Julia Versions, after installing a new version of julia
+  - `Pkg.add("IJulia"); Pkg.build("IJulia")` this will re-register the new kernal which Jupyter notebooks etc and anything that requires the kernal.
+
 ### 20220329
 Attendants: 7
  - turn your `for` loops into `lapply()` instead
