@@ -17,7 +17,7 @@ Attendants: 8
  - Showed cloudstor.aarnet.edu.au to transfer < 1TB of data internationally (upload via webpage, or use curl https://www.solved.tips/aarnet-cloudstor-using-curl-command-line/ )
  - Played around with visualising PC1, PC2, PC3 across RNAseq datasets using ggplot - use facet_wrap(~GROUP) to check how groups look
 
-### 20220329
+### 2022-03-29
 Attendants: 7
  - turn your `for` loops into `lapply()` instead
  - Install [Rtools for Windows](https://cran.r-project.org/bin/windows/Rtools/rtools40.html) to install `{Rcpp}` and other packages properly on Windows.
