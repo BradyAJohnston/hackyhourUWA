@@ -8,6 +8,7 @@ A running log of things we have managed to fix, and resources we have found alon
  - Fixed problems with `{glmnet}` packackage by converting input matrices from character matrices to numeric matrices
  - learnt how to test for vectors being in other vectors in julia using `in()`
    -  `in.(data.column, [vectors])` to create logical vector to subset `data` rows
+     -  important to broadcast the `in()` function, and also put the `vectors` in its own array with `[]` to broadcast against
 
  - fixing Julia Versions, after installing a new version of julia
   - `Pkg.add("IJulia"); Pkg.build("IJulia")` this will re-register the new kernal which Jupyter notebooks etc and anything that requires the kernal.
