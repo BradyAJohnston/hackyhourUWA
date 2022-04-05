@@ -3,7 +3,7 @@
 A running log of things we have managed to fix, and resources we have found along the way!
 ---
 
-### 2020-04-05
+### 2022-04-05
 Attendants: 8
  - Fixed problems with `{glmnet}` packackage by converting input matrices from character matrices to numeric matrices
    - suggested to move the analysis to tidymodels at some point - support exists https://parsnip.tidymodels.org/reference/glmnet-details.html
