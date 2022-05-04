@@ -3,6 +3,15 @@
 A running log of things we have managed to fix, and resources we have found along the way!
 ---
 
+### 2022-05-04
+
+Attendants: 9
+- Fixed a problem with running rstudio-server via singularity's rocker/rstudio image. Misses libgpng and libgeos. Dave Tang has an image here that contains libpng, but misses libgeos: https://davetang.org/muse/2021/04/24/running-rstudio-server-with-docker/ Philipp made a version that includes libgeos so Seurat can be installed: https://hub.docker.com/repository/docker/philippbayer/rstudio/ (should be philippbayer/rstudio:latest which will install v4.0.5)
+- Fixed a barchart to add errorbars and use nicer scaling via scales:label_number()
+- discussed Bayesian optimisation for scikit-learn
+ 
+ 
+
 ### 2022-04-05
 Attendants: 8
  - Fixed problems with `{glmnet}` packackage by converting input matrices from character matrices to numeric matrices
